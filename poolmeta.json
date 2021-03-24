@@ -1,1 +1,7 @@
-{"name":"HIST1","ticker":"HIST1","description":"HIST1 for a better world","homepage":"http://histake.eu","nonce":"1616611739"}
+{
+  "name": "HIST1",
+  "ticker": "HIST1",
+  "description": "HIST1 for a better world",
+  "homepage": "https://histake.eu",
+  "nonce": "1616611739"
+}
