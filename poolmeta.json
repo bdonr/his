@@ -3,6 +3,10 @@
   "ticker": "HIST",
   "description": "1% margin, HISTAKE , cloud infrastructure, High reliable server LETS STAKE HIGH!",
   "homepage": "https://histake.eu",
-  "nonce": "1617543709"
+  "nonce": "1617543709",
+  "social": {
+            "twitter_handle": "wtjockel",
+            "telegram_handle": "g_SChwyJ7GFiNWM6"
+        }
 } 
 
