@@ -4,23 +4,6 @@
   "description": "1% margin, HISTAKE , cloud infrastructure, High reliable server LETS STAKE HIGH!",
   "homepage": "https://histake.eu",
   "nonce": "1617543709",
-  
-  "info": {
-        "url_png_icon_64x64": "https://github.com/bdonr/his/blob/master/favicon-32x32.png",
-        "url_png_logo": "https://github.com/bdonr/his/blob/master/android-chrome-192x192.png",
-        "location": "Hildesheim, Germany",
-        "social": {
-           "twitter_handle": "wtjockel",
-           "telegram_handle": "g_SChwyJ7GFiNWM6"
-        },
-        "company": {
-            "name": "HIST",
-            "city": "Hildesheim",
-            "country": "Germany",
-        },
-        "about": {
-            "me": "Bachelor of Science (Applied Computer Science), Studying Master of Information Science and Applied Computer Science",
-            "server": "500Mb/s Up/Down, High Available Server, solar energy , Next Project : Solar Powered Raspberrie Cluster"
-        }
+  "extended": "https://github.com/bdonr/his/blob/master/extended.json"
 } 
 
