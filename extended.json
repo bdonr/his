@@ -1,23 +1,24 @@
-"info": {
-        "url_png_icon_64x64": "https://github.com/bdonr/his/blob/master/favicon-32x32.png",
-        "url_png_logo": "https://github.com/bdonr/his/blob/master/android-chrome-192x192.png",
-        "location": "Hildesheim, Germany",
-        "social": {
-           "twitter_handle": "wtjockel",
-           "telegram_handle": "g_SChwyJ7GFiNWM6"
-        },
-        "company": {
-            "name": "HIST",
-            "city": "Hildesheim",
-            "country": "Germany",
-        },
-        "about": {
-            "me": "Bachelor of Science (Applied Computer Science), Studying Master of Information Science and Applied Computer Science",
-            "server": "500Mb/s Up/Down, High Available Server, solar energy , Next Project : Solar Powered Raspberrie Cluster"
-        },
-    "my-pool-ids": {
-        "0": "402d40881b1e0b8d3e2fdd21254234d3c9bdd09b046e096c5a625bb3",
-        "1": ""
-      }
-    }
+{
+        "info": {
+                "url_png_icon_64x64": "https://github.com/bdonr/his/blob/master/favicon-32x32.png",
+                "url_png_logo": "https://github.com/bdonr/his/blob/master/android-chrome-192x192.png",
+                "location": "Hildesheim, Germany",
+                "social": {
+                        "twitter_handle": "wtjockel",
+                        "telegram_handle": "g_SChwyJ7GFiNWM6"
+                },
+                "company": {
+                        "name": "HIST",
+                        "city": "Hildesheim",
+                        "country": "Germany",
+                },
+                "about": {
+                        "me": "Bachelor of Science (Applied Computer Science), Studying Master of Information Science and Applied Computer Science",
+                        "server": "500Mb/s Up/Down, High Available Server, solar energy , Next Project : Solar Powered Raspberrie Cluster"
+                },
+                "my-pool-ids": {
+                        "0": "402d40881b1e0b8d3e2fdd21254234d3c9bdd09b046e096c5a625bb3",
+                        "1": ""
+                }
+        }
 }
