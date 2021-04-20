@@ -1,0 +1,112 @@
+@prefix : <http://example.com/>
+@prefix foaf: <http://xmlns.com/foaf/0.1/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+@prefix jdb: <https://www.jedipedia.fandom.com/wiki/> 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+@prefix wd: <https://www.wikidata.org/entity/>
+@prefix dcterms: <http://www.purl.org/dc/terms/>
+
+# - - - T boxes - - - # Rules
+
+# Entities
+wd:planet rdf:type rdf:class .
+:creature rdf:type rdf:class . 
+:person rdfs:subClassOf :creature .
+:man rdf:subClassOf :person .
+:woman rdf:subClassOf :person .
+
+:jedi rdf:type rdf:class .
+:jedi rdfs:subClassOf :creature .
+
+:sith rdf:type rdf:class .
+:sith rdfs:subClassOf :creature .
+:sithlord rdfs:subClassOf :creature .
+
+:mandalorian rdf:type rdf:class .
+:mandalorian rdf:subClassOf :person . 
+
+:master rdf:type rdf:class .
+
+#Property
+:hasMaster rdf:type rdf:Property .
+:hasFather rdf:type rdf:Property . 
+:Origin rdf:type rdf:Property .
+:locatedOn rdf:type rdf:Property .
+
+#Subproperty
+wd:planet rdf:type rdf:class .
+:coreworld rdfs:subClassOf :planet .
+:city a rdfs:Class .
+:locatedOn rdf:type rdf:Property .
+:locatedOn rdfs:domain :city .
+:locatedOn rdfs:range :planet . 
+:capitalOf rdfs:subPropertyOf :locatedOn .
+
+#Domain 
+:locatedOn rdfs:domain :city . 
+:hasMaster rdfs:domain: :creature .
+:hasFather rdfs:domain: :creature .
+:Origin rdfs:domain :creature .
+
+#Range
+:locatedOn rdfs:range :planet . 
+:hasMaster rdfs:range: :creature .
+:hasFather rdfs:range: :man .
+:Origin rdfs:range :planet . 
+
+# - - - A boxes - - - #Facts
+
+jdb:Kamino a :planet .
+jdb:Stewjon a :planet .
+jdb:Naboo a :planet .
+jdb:Coruscant a :coreworld .
+jdb:Serenno a :planet .
+wd:Q723764 a :planet ;  # Q723764:tattoine
+	dcterms:title"tattoine".
+
+#Jedis
+:Qui-Gon-Jinn a :jedi .
+:Obi-Wan-Kenobi a :jedi .
+
+#Siths
+:Count-Dooku a :sith .
+:Darth-Vader a :sith .
+:Palpatine a :sithlord .
+
+#Mandalorian
+:Bobba-Fett a :mandalorian .
+
+#Beziehungen
+:Qui-Gon-Jinn :hasMaster :Count-Dooku .
+:Darth-Vader :hasMaster :Palpatine .
+:Obi-Wan-Kenobi :hasMaster :Qui-Gon-Jinn .
+:Count-Dooku :hasMaster :Palpatine .
+:Palpatine :hasMaster :Plagueis .
+:Bobba-Fett :hasFather :Jango-Fett .
+
+#State
+:state rdf:type rdfs:Datatype .
+:Qui-Gon-Jinn :state "Ghost" .
+:Darth-Vader :state "alive" .
+:Obi-Wan-Kenobi :state "alive" .
+:Count-Dooku :state "dead" .
+:Palpatine :state "alive" .
+:Bobba-Fett :state "alive" .
+
+#Origins
+:Qui-Gon-Jinn :Origin wd:Coruscant .
+:Darth-Vader :Origin wd:Tatooine .
+:Obi-Wan-Kenobi :Origin wd:Stewjon .
+:Count-Dooku :Origin wd:Serenno .
+:Palpatine :Origin wd:Naboo .
+:Bobba-Fett :Origin wd:Kamino .
+
+#Cities
+:MosEspa :capitalOf wd:Q723764 .
+:MosEisley :locatedOn wd:Q723764 .
+:Carannia :capitalOf wd:Serenno .
+:CoruscantCity :capitalOf wd:Coruscant .
+:Tipoca :capitalOf wd:Kamino . 
+:Timira :locatedOn wd:Kamino .
+:Theed :capitalOf wd:Naboo .
+:GunganCity :locatedOn wd:Naboo .
