@@ -1,11 +1,20 @@
 {
   "721" : {
-    "<policy hash>" : {
-      "<asset name>" : {
-        . . .
+    "4c5e3cdddb75a9a6ce79036a6170a084ebe59f782735d628296e4714" : {
+      "Hearts" : {
+         "id":"#100",
+         "Description": "given for beeing one of the first delegators",
+         "rareness":"rare",
+         "Artist": "bdr/HIST",
+         "Copyright": "Copyright 2021"
+         "tags": [
+            "winered", 
+            "lines:black"
+            "proceed"
+        ],
+        "mimeType":"svg",
+        "image":"https://ipfs.io/ipfs/QmRftTHWTsMfPGuhiEnaqTTRHKXspMYeqQCyma7qAaBLLJ?filename=2.svg"
       }
-      . . .
     }
-    . . .
   }
 }
