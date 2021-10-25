@@ -2,6 +2,7 @@
   "721" : {
     "4c5e3cdddb75a9a6ce79036a6170a084ebe59f782735d628296e4714" : {
       "Hearts" : {
+         "name":"#100",
          "id":"#100",
          "Description": "given for beeing one of the first delegators",
          "rareness":"rare",
