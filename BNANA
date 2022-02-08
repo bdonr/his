@@ -1,0 +1,11 @@
+[
+  {
+    "id": "BNANA",
+    "name": "BNANA #0",
+    "image": "ipfs://QmTkYfF9uR6jp3XvmU63BYJMFKD6AcuxPRVgtnHiXJFYjT",
+    "src": "ipfs://QmfRyg8PRdRHbV5N16yAzACK9mj5VDkusVTP4eEbkQ4pEN",
+    "type": "image/png",
+    "authors": BNANA,
+    "website": "https://histake.eu/"
+  }
+]
